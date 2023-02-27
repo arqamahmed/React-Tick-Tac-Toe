@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.box1 {
+  background-color: #f1cf38;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0px 0px 8px #888888;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 4em;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.box1:hover {
+  box-shadow: 0px 0px 15px #888888;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
